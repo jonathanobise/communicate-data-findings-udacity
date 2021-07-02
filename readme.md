@@ -1,17 +1,25 @@
-# (Dataset Exploration Title)
-## by (your name here)
+# Ford GoBike Exploration
+## by Jonathan Obise
 
 
 ## Dataset
 
-> Provide basic information about your dataset in this section. If you selected your own dataset, make sure you note the source of your data and summarize any data wrangling steps that you performed before you started your exploration.
+> This data set includes information about individual rides made in a bike-sharing system covering the greater San Francisco Bay area.
+
+> Bay Wheels (Formerly Ford GoBike) is a regional public bicycle sharing system in California's San Francisco Bay Area. It is operated by Motivate in a partnership with the Metropolitan Transportation Commission and the Bay Area Air Quality Management District. Bay Wheels is 'the first regional and large-scale bicycle sharing system deployed in California and on the West Coast of the United States. It was established as Bay Area Bike Share in August 2013. As of January 2018, the Bay Wheels system had over 2,600 bicycles in 262 stations across San Francisco, East Bay and San Jose.
+
+> In June 2017 the system was officially re-launched as Ford GoBike in a partnership with Ford Motor Company. After Motivate's acquisition by Lyft, the system was renamed to Bay Wheels in June 2019. The system is expected to expand to 7,000 bicycles around 540 stations in San Francisco, Oakland, Berkeley, Emeryville, and San Jose.
+
+> To prepare the data, I loaded it in from a csv file and converted the start and end time columns to datetime, extracted the dayofweek and hours information from the start_time variable and converted the start_time_dayofweek to ordinal variables.
 
 
 ## Summary of Findings
 
-> Summarize all of your findings from your exploration here, whether you plan on bringing them into your explanatory presentation or not.
+> In the exploration, I found that there are more subscribers compared to customers who use the bikesharing service. Also, subscribers mostly used the service to commute to work while customers mostly used it for pleasure. In adittion, I found out that the average trip duration on weekends was longer than trips on weekdays.
 
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+> For the presentation, I tried to display plots from the three different exploration that could better present the relationships I observed. I started by displaying the univariate visualizations, followed by the bivariate visualizations and then the multivariate visualizations of the relationships between the variables.
+
+> In addition to all these and to better understand the data, I analyzed the Biker types, weekday trip duration, daily/hourly trip duration and more.
